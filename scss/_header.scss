@@ -1,0 +1,57 @@
+header {
+    position: relative;
+    .container {
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 4rem;
+
+            .more-link {
+                display: flex;
+                align-items: center;
+                color: $black;
+
+                a {
+                    text-decoration: underline;
+                    margin-right: 1.6rem;
+                    font-size: 1.6rem;
+                    line-height: 160%;
+                }
+            }
+
+            .social-medias {
+                ul {
+                    display: flex;
+                    align-items: center;
+
+                    li {
+                        &:not(:last-child) {
+                            margin-right: 3.5rem;
+                        }
+                    }
+                    
+                }
+            }
+            margin-bottom: 3.3rem;
+        }
+
+            .price {
+                background-color: $details;
+                padding: 0.8rem 1.6rem;
+                color: $accent;
+                font-size: 1.3rem;
+                line-height: 1.6rem;
+                border-radius: 12.2rem;
+            }
+    }
+
+    .border {
+        z-index: -1;
+        width: 100%;
+        height: 2px;
+        background-color: $details;
+        position: absolute;
+        bottom: 8px;
+    }
+}
