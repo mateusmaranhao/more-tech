@@ -40,4 +40,62 @@ a {
   .container {
     max-width: 124.8rem;
   }
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  letter-spacing: -0.01em;
+  color: #1C1C1F;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 150%;
+  color: #1C1C1F;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: #606272;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #FDFDFD;
+  background-color: #1C1C1F;
+  padding: 1.5rem 2.8rem;
+  border-radius: 9.76rem;
+}
+
+.card {
+  background-color: #FDFDFD;
+  width: 100%;
+  max-width: 38.4rem;
+  border-radius: 12px;
+}
+.card .info {
+  padding: 4.8rem 4rem;
+}
+.card .info .image {
+  margin-bottom: 3rem;
+}
+.card .info .text span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  color: #606272;
 }/*# sourceMappingURL=main.css.map */
