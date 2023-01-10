@@ -1,9 +1,10 @@
 .s-hero {
-    padding-top: 6.4rem;
+    margin-top: 6.4rem;
+
     .container {
         display: flex;
-        align-items: flex-start;
         justify-content: space-between;
+
         .left-content {
             width: 100%;
             max-width: 55.5rem;
@@ -81,5 +82,30 @@
                 }
             }
         }
+        .right-content {
+            width: 100%;
+            max-width: 52rem;
+        }
+    }
+}
+
+.s-benefits {
+    margin-top: 6.4rem;
+    position: relative;
+    .container {
+        .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .white-board {
+        background-color: $white;
+        height: 21.6rem;
+        width: 100%;
+
+        position: absolute;
+        top: 11.6rem;
+        z-index: -1;
     }
 }

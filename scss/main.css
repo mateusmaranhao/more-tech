@@ -146,11 +146,10 @@ header .border {
 }
 
 .s-hero {
-  padding-top: 6.4rem;
+  margin-top: 6.4rem;
 }
 .s-hero .container {
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
 }
 .s-hero .container .left-content {
@@ -216,4 +215,26 @@ header .border {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+}
+.s-hero .container .right-content {
+  width: 100%;
+  max-width: 52rem;
+}
+
+.s-benefits {
+  margin-top: 6.4rem;
+  position: relative;
+}
+.s-benefits .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-benefits .white-board {
+  background-color: #FDFDFD;
+  height: 21.6rem;
+  width: 100%;
+  position: absolute;
+  top: 11.6rem;
+  z-index: -1;
 }/*# sourceMappingURL=main.css.map */
