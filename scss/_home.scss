@@ -1,0 +1,85 @@
+.s-hero {
+    padding-top: 6.4rem;
+    .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .left-content {
+            width: 100%;
+            max-width: 55.5rem;
+
+            .text {
+                position: relative;
+
+                .star {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+    
+                h1 {
+                    margin-bottom: 2.6rem;
+                    z-index: 1;
+                }
+
+                .yellow-border {
+                    height: 0.8rem;
+                    width: 460px;
+                    background-color: $yellow;
+
+                    position: absolute;
+                    bottom: 12.6rem;
+                    left: 6px;
+                    z-index: -1;
+                }
+            }
+
+            .input {
+                width: 100%;
+                margin-top: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                background-color: $details;
+                padding: 1.1rem 1.5rem;
+                border-radius: 122px;
+
+                input {
+                    border: none;
+                    outline: 0;
+
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                    letter-spacing: -0.005em;
+                    color: $input;
+
+                    padding-left: 2rem;
+                }
+            }
+
+            .brands {
+                margin-top: 5.6rem;
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 3rem;
+                }
+            }
+
+            .reviews {
+                margin-top: 6.7rem;
+                display: flex;
+                align-items: center;
+                gap: 1.6rem;
+
+                .grade-review {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.6rem;
+                }
+            }
+        }
+    }
+}

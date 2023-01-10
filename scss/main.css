@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background-color: #F2F3F9;
+  background-color: #E7E7E9;
 }
 
 a {
@@ -143,4 +143,77 @@ header .border {
   background-color: #FDFDFD;
   position: absolute;
   bottom: 8px;
+}
+
+.s-hero {
+  padding-top: 6.4rem;
+}
+.s-hero .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.s-hero .container .left-content {
+  width: 100%;
+  max-width: 55.5rem;
+}
+.s-hero .container .left-content .text {
+  position: relative;
+}
+.s-hero .container .left-content .text .star {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.s-hero .container .left-content .text h1 {
+  margin-bottom: 2.6rem;
+  z-index: 1;
+}
+.s-hero .container .left-content .text .yellow-border {
+  height: 0.8rem;
+  width: 460px;
+  background-color: #F7B40D;
+  position: absolute;
+  bottom: 12.6rem;
+  left: 6px;
+  z-index: -1;
+}
+.s-hero .container .left-content .input {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FDFDFD;
+  padding: 1.1rem 1.5rem;
+  border-radius: 122px;
+}
+.s-hero .container .left-content .input input {
+  border: none;
+  outline: 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.005em;
+  color: #989BA7;
+  padding-left: 2rem;
+}
+.s-hero .container .left-content .brands {
+  margin-top: 5.6rem;
+}
+.s-hero .container .left-content .brands ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.s-hero .container .left-content .reviews {
+  margin-top: 6.7rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.s-hero .container .left-content .reviews .grade-review {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }/*# sourceMappingURL=main.css.map */
