@@ -144,6 +144,14 @@ header .border {
   position: absolute;
   bottom: 8px;
 }
+@media (max-width: 560px) {
+  header .container nav .logo {
+    max-width: 180px;
+  }
+  header .container nav .more-link {
+    display: none;
+  }
+}
 
 .s-hero {
   margin-top: 6.4rem;
