@@ -50,6 +50,12 @@ h1 {
   letter-spacing: -0.01em;
   color: #1C1C1F;
 }
+@media (max-width: 991px) {
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
 
 h2 {
   font-family: "Poppins", sans-serif;
@@ -227,6 +233,43 @@ header .border {
 .s-hero .container .right-content {
   width: 100%;
   max-width: 52rem;
+}
+@media (max-width: 991px) {
+  .s-hero .container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .s-hero .container .left-content {
+    margin-bottom: 4rem;
+  }
+  .s-hero .container .left-content .text {
+    text-align: center;
+  }
+  .s-hero .container .left-content .text .yellow-border {
+    width: 100%;
+    bottom: 11.3rem;
+  }
+  .s-hero .container .left-content .text .star {
+    right: -0.8rem;
+  }
+  .s-hero .container .left-content .brands ul {
+    justify-content: center;
+  }
+  .s-hero .container .left-content .reviews {
+    margin-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .s-hero .container .left-content .reviews .grade-review img {
+    width: 1.6rem;
+  }
+  .s-hero .container .left-content .reviews .grade-review span {
+    font-size: 1.6rem;
+  }
+  .s-hero .container .right-content {
+    display: none;
+  }
 }
 
 .s-benefits {

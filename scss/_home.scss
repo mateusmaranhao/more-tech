@@ -82,9 +82,55 @@
                 }
             }
         }
+
         .right-content {
             width: 100%;
             max-width: 52rem;
+        }
+    }
+
+    @media(max-width: 991px) {
+        .container {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .left-content {
+                margin-bottom: 4rem;
+                .text {
+                    text-align: center;
+                    .yellow-border {
+                        width: 100%;
+                        bottom: 11.3rem;
+                    }
+                    .star {
+                        right: -0.8rem;
+                    }
+                }
+                .brands {
+                   ul {
+                    justify-content: center;
+                   }
+                }
+                .reviews {
+                    margin-top: 4rem;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .grade-review {
+                        img {
+                            width: 1.6rem;
+                        }
+                        span {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+
+            .right-content {
+                display: none;
+            }
         }
     }
 }
@@ -108,4 +154,15 @@
         top: 11.6rem;
         z-index: -1;
     }
+
+    // @media(max-width: 991px) {
+    //     .container {
+    //         .cards {
+    //             flex-direction: column;
+    //             .card {
+    //                 margin-bottom: 2rem;
+    //             }
+    //         }
+    //     }
+    // }
 }
