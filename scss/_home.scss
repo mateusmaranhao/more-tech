@@ -133,6 +133,52 @@
             }
         }
     }
+    @media(max-width: 560px) {
+        .container {
+            .left-content {
+                .text {
+                    h1 {
+                        margin-bottom: 1.5rem;
+                    }
+                    .star {
+                        z-index: -1;
+                        top: -6px;
+                    }
+                    .yellow-border {
+                        bottom: 10.2rem;
+                    }
+                }
+
+                .input {
+                    margin-top: 3rem;
+                    padding: 1rem;
+                    input {
+                        font-size: 1.4rem;
+                        padding-left: 1.2rem;
+                    }
+                    .btn {
+                        font-size: 12px;
+                        padding: 1rem;
+                    }
+                }
+
+                .brands {
+                    margin-top: 3rem;
+                }
+
+                .reviews {
+                    margin-top: 3rem;
+                    gap: 1rem;
+
+                    .grade-review {
+                        span {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .s-benefits {
