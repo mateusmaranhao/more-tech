@@ -225,4 +225,29 @@
             top: 51.5rem;
         }
     }
+    @media(max-width: 560px) {
+        .container {
+            .cards {
+                .card {
+                    .info {
+                        padding: 3rem 4rem;
+                        .image {
+                            margin-bottom: 2rem;
+                        }
+                        .text {
+                            span {
+                                margin-top: 1.2rem;
+                                font-size: 1.4rem;
+                                line-height: 2.1rem;
+                            }
+                        }
+                    }
+                   
+                }
+            }
+        }
+        .white-board {
+            top: 43rem;
+        }
+    }
 }

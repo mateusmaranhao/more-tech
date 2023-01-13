@@ -71,6 +71,12 @@ h2 {
   line-height: 150%;
   color: #1C1C1F;
 }
+@media (max-width: 560px) {
+  h2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
 
 p {
   font-family: "Inter", sans-serif;
@@ -349,5 +355,21 @@ header .border {
   }
   .s-benefits .white-board {
     top: 51.5rem;
+  }
+}
+@media (max-width: 560px) {
+  .s-benefits .container .cards .card .info {
+    padding: 3rem 4rem;
+  }
+  .s-benefits .container .cards .card .info .image {
+    margin-bottom: 2rem;
+  }
+  .s-benefits .container .cards .card .info .text span {
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  .s-benefits .white-board {
+    top: 43rem;
   }
 }/*# sourceMappingURL=main.css.map */
