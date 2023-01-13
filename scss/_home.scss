@@ -201,14 +201,28 @@
         z-index: -1;
     }
 
-    // @media(max-width: 991px) {
-    //     .container {
-    //         .cards {
-    //             flex-direction: column;
-    //             .card {
-    //                 margin-bottom: 2rem;
-    //             }
-    //         }
-    //     }
-    // }
+    @media(max-width: 1200px) {
+        .container {
+            .cards {
+                .card {
+                    &:not(:last-child) {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width: 991px) {
+        .container {
+            .cards {
+                flex-direction: column;
+                .card {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+        .white-board {
+            top: 51.5rem;
+        }
+    }
 }
