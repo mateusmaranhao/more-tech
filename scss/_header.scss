@@ -38,21 +38,25 @@ header {
 
             .price {
                 background-color: $white;
+                width: 122px;
                 padding: 0.8rem 1.6rem;
-                color: $red;
-                font-size: 1.3rem;
-                line-height: 1.6rem;
                 border-radius: 12.2rem;
+                line-height: 1.6rem;
+                font-size: 1.3rem;
+
+                span {
+                    color: $red;
+                }
             }
     }
 
     .border {
         z-index: -1;
         width: 100%;
-        height: 2px;
+        height: 0.2rem;
         background-color: $white;
         position: absolute;
-        bottom: 8px;
+        bottom: 1.5rem;
     }
 
     @media(max-width: 560px) {
